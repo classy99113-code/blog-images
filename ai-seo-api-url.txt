@@ -1,1 +1,1 @@
-https://tasks-firefox-tube-directly.trycloudflare.com
+https://api.trycloudflare.com
