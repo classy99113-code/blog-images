@@ -1,0 +1,33 @@
+/* 헬스노트 — 굿닥·닥터나우·국가건강정보포털 스타일: 청록(건강) + 차분한 네이비 텍스트, 넉넉한 여백, 둥근 카드 */
+:root{--h-teal:#0fb5a6;--h-deep:#0a8f84;--h-ink:#16323a;--h-mute:#5b7a80;--h-bg:#f2faf9;--h-line:#d5ebe8;--h-soft:#e2f6f3;--h-blue:#2f6df6}
+body,.body-fauxcolumn-outer,.page,.main,.container{background:var(--h-bg)!important;color:var(--h-ink)!important;font-family:'Pretendard Variable',Pretendard,-apple-system,'Segoe UI','Malgun Gothic',sans-serif!important;letter-spacing:-.01em}
+.bg-photo-container,.bg-photo{background:linear-gradient(120deg,#e9fbf8 0%,#d3f3ee 60%,#c4ecff 100%)!important;background-image:linear-gradient(120deg,#e9fbf8 0%,#d3f3ee 60%,#c4ecff 100%)!important}
+.bg-photo{opacity:1!important}.bg-photo-overlay{background:none!important;opacity:0!important}
+.centered-top-container,.centered-top{background:transparent!important}
+.Header h1,.Header .title,.blog-name,.Header a,.centered-top .title a{color:var(--h-ink)!important;font-weight:800!important;letter-spacing:-.03em}
+.Header h1:before,.blog-name:before{content:"＋ ";color:var(--h-teal);font-weight:900}
+.Header .description,.Header p,.header-widget .description{color:var(--h-mute)!important;font-weight:500}
+.hamburger-menu,.search-expand-icon,.search-expand,.touch-icon,.touch-icon-button{color:var(--h-ink)!important;fill:var(--h-ink)!important}
+.post-outer-container{background:#fff!important;border:1px solid var(--h-line)!important;border-radius:22px!important;box-shadow:0 4px 18px rgba(15,181,166,.08)!important;margin-bottom:22px!important;overflow:hidden}
+.post-outer-container:hover{box-shadow:0 10px 26px rgba(15,181,166,.18)!important;border-color:var(--h-teal)!important}
+.post-title,.post-title a,.entry-title,h3.post-title a{color:var(--h-ink)!important;font-weight:800!important;letter-spacing:-.025em;line-height:1.4}
+.post-title a:hover{color:var(--h-deep)!important}
+.post-snippet,.snippet-item{color:var(--h-mute)!important;line-height:1.75}
+.snippet-thumbnail img,.post-body img{border-radius:16px}
+.byline,.post-timestamp,.published,.post-footer-line{color:var(--h-mute)!important}
+.post-footer .label-name a,.label-name a,.Label a{background:var(--h-soft)!important;color:var(--h-deep)!important;border-radius:999px;padding:4px 14px;font-weight:700;text-decoration:none!important;font-size:13px}
+.post-body{color:var(--h-ink)!important;line-height:1.9!important;font-size:17px}
+.post-body h2{color:var(--h-ink)!important;font-size:24px!important;font-weight:800!important;margin:2.2em 0 .8em!important;padding:12px 16px;background:var(--h-soft);border-radius:14px;border-left:6px solid var(--h-teal)}
+.post-body h3{color:var(--h-deep)!important;font-size:19px!important;font-weight:800!important;margin:1.6em 0 .5em!important}
+.post-body strong,.post-body b{background:linear-gradient(transparent 62%,#c9f2ec 62%);color:var(--h-ink)}
+.post-body table{border-collapse:separate!important;border-spacing:0;width:100%!important;margin:1.2em 0;font-size:15.5px;border:1px solid var(--h-line);border-radius:14px;overflow:hidden}
+.post-body th{background:var(--h-teal)!important;color:#fff!important;padding:11px 12px!important;border:0!important;text-align:left}
+.post-body td{padding:10px 12px!important;border:0!important;border-top:1px solid var(--h-line)!important;background:#fff}
+.post-body tr:nth-child(even) td{background:#f6fcfb}
+.post-body ul{padding-left:1.2em}.post-body li{margin:.4em 0}
+.post-body blockquote{border-left:5px solid var(--h-teal)!important;background:var(--h-soft)!important;padding:12px 18px!important;border-radius:0 14px 14px 0}
+.post-body a{color:var(--h-blue)!important;font-weight:600}
+.sidebar-container .widget{background:#fff!important;border:1px solid var(--h-line)!important;border-radius:22px!important;padding:18px!important;margin-bottom:18px!important}
+.widget h3,.widget .title{color:var(--h-ink)!important;font-weight:800!important}
+.blog-pager a,.pill-button,.flat-button{background:var(--h-teal)!important;color:#fff!important;border-radius:999px!important;font-weight:700}
+.footer,.footer-outer{background:#e2f6f3!important;color:var(--h-mute)!important}

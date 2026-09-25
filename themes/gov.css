@@ -1,0 +1,38 @@
+/* 지원금 길잡이 — 복지로·정부24 스타일: 공공 안내 톤(딥 블루), 카드형 목록, 또렷한 위계 */
+:root{--g-blue:#256ef4;--g-navy:#0b2b6b;--g-bg:#f3f6fb;--g-line:#d7deec;--g-ink:#1a1f2b;--g-mute:#5c667a;--g-soft:#e8f0ff}
+body,.body-fauxcolumn-outer,.page,.main,.container{background:var(--g-bg)!important;color:var(--g-ink)!important;font-family:'Pretendard Variable',Pretendard,-apple-system,'Segoe UI','Malgun Gothic',sans-serif!important;letter-spacing:-.01em}
+/* 상단: 커버 사진 대신 깊은 블루 그라데이션 */
+.bg-photo-container,.bg-photo{background:linear-gradient(135deg,var(--g-navy) 0%,var(--g-blue) 100%)!important;background-image:linear-gradient(135deg,var(--g-navy) 0%,var(--g-blue) 100%)!important}
+.bg-photo{opacity:1!important}.bg-photo-overlay{background:none!important;opacity:0!important}
+.centered-top-container,.centered-top{background:transparent!important}
+.Header h1,.Header .title,.blog-name,.Header a,.centered-top .title a{color:#fff!important;font-weight:800!important;letter-spacing:-.03em}
+.Header .description,.Header p,.header-widget .description{color:#cfe0ff!important;font-weight:500}
+.hamburger-menu,.search-expand-icon,.search-expand,.touch-icon,.touch-icon-button{color:#fff!important;fill:#fff!important}
+.search-action,.search-input,.search-expand-icon svg{color:#fff}
+/* 본문 영역 카드 */
+.post-outer-container{background:#fff!important;border:1px solid var(--g-line)!important;border-radius:14px!important;box-shadow:0 2px 10px rgba(11,43,107,.06)!important;margin-bottom:18px!important;overflow:hidden}
+.post-outer-container:hover{border-color:var(--g-blue)!important;box-shadow:0 6px 18px rgba(37,110,244,.14)!important}
+.post-outer{padding:2px}
+.post-title,.post-title a,.entry-title,h3.post-title a{color:var(--g-navy)!important;font-weight:800!important;letter-spacing:-.025em;line-height:1.4}
+.post-title a:hover{color:var(--g-blue)!important}
+.post-snippet,.snippet-item{color:var(--g-mute)!important;line-height:1.7}
+.snippet-thumbnail img,.post-body img{border-radius:10px}
+.byline,.post-timestamp,.published,.post-footer-line{color:var(--g-mute)!important}
+.post-footer .label-name a,.label-name a,.Label a{background:var(--g-soft)!important;color:var(--g-blue)!important;border-radius:999px;padding:3px 12px;font-weight:700;text-decoration:none!important;font-size:13px}
+/* 글 본문 */
+.post-body{color:var(--g-ink)!important;line-height:1.85!important;font-size:17px}
+.post-body h2{color:var(--g-navy)!important;font-size:24px!important;font-weight:800!important;border-left:6px solid var(--g-blue);padding:2px 0 2px 14px;margin:2.2em 0 .8em!important;background:linear-gradient(90deg,var(--g-soft),transparent 70%)}
+.post-body h3{color:var(--g-blue)!important;font-size:19px!important;font-weight:800!important;margin:1.6em 0 .5em!important}
+.post-body strong,.post-body b{color:var(--g-navy)}
+.post-body table{border-collapse:collapse!important;width:100%!important;margin:1.2em 0;font-size:15.5px;border-radius:10px;overflow:hidden}
+.post-body th{background:var(--g-navy)!important;color:#fff!important;padding:11px 12px!important;border:1px solid var(--g-navy)!important;text-align:left}
+.post-body td{padding:10px 12px!important;border:1px solid var(--g-line)!important;background:#fff}
+.post-body tr:nth-child(even) td{background:#f8faff}
+.post-body ul{padding-left:1.2em}.post-body li{margin:.35em 0}
+.post-body blockquote{border-left:5px solid var(--g-blue)!important;background:var(--g-soft)!important;padding:12px 18px!important;border-radius:0 10px 10px 0;color:var(--g-navy)!important}
+.post-body a{color:var(--g-blue)!important;font-weight:600}
+/* 사이드바·페이저 */
+.sidebar-container .widget{background:#fff!important;border:1px solid var(--g-line)!important;border-radius:14px!important;padding:16px!important;margin-bottom:16px!important}
+.widget h3,.widget .title{color:var(--g-navy)!important;font-weight:800!important}
+.blog-pager a,.pill-button,.flat-button{background:var(--g-blue)!important;color:#fff!important;border-radius:999px!important;font-weight:700}
+.footer,.footer-outer{background:var(--g-navy)!important;color:#cfe0ff!important}.footer a{color:#fff!important}
