@@ -1,0 +1,61 @@
+/* 지원금 길잡이 — 정부24·복지로형 포털: 상단 유틸바, 대형 검색 히어로, 아이콘 타일, 게시판형 목록, 각진 카드 */
+:root{--g-navy:#0b2b6b;--g-blue:#256ef4;--g-ink:#1e2430;--g-sub:#5c667a;--g-bg:#f4f6fa;--g-line:#d9dfeb;--g-soft:#eaf1ff;--g-warn:#fff7e0}
+body.hk-gov,.hk-gov .page{background:var(--g-bg)!important;color:var(--g-ink);font-family:'Pretendard Variable',Pretendard,-apple-system,'Malgun Gothic',sans-serif!important}
+.hk-gov .hk-util{background:var(--g-navy);color:#cfe0ff;font-size:12.5px}.hk-gov .hk-util .hk-in{padding-top:8px;padding-bottom:8px}
+.hk-gov .hk-bar{background:#fff;border-bottom:1px solid var(--g-line)}
+.hk-gov .hk-bar .hk-in{height:72px}
+.hk-gov .hk-logo{color:var(--g-navy)!important}.hk-gov .hk-logo i{background:var(--g-navy);color:#fff;border-radius:6px;width:34px;height:34px}
+.hk-gov .hk-logo b{font-size:22px;letter-spacing:-.04em}
+.hk-gov .hk-nav a{color:var(--g-ink)!important;font-weight:800;border-bottom:3px solid transparent;padding:24px 14px 21px;border-radius:0}
+.hk-gov .hk-nav a:hover{color:var(--g-blue)!important;border-bottom-color:var(--g-blue)}
+.hk-gov .hk-sf input,.hk-gov .hk-sf button{background:var(--g-bg);border-radius:4px}.hk-gov .hk-sf input{border-radius:4px 0 0 4px;border:1px solid var(--g-line);border-right:0}.hk-gov .hk-sf button{border-radius:0 4px 4px 0;border:1px solid var(--g-line)}
+.hk-gov .hk-hero{background:linear-gradient(135deg,var(--g-navy),#1b4fc4 70%,#2f7bff);color:#fff;text-align:center;padding:64px 0 56px;position:relative;overflow:hidden}
+.hk-gov .hk-hero:before{content:"";position:absolute;right:-80px;top:-80px;width:340px;height:340px;border-radius:50%;background:rgba(255,255,255,.07)}
+.hk-gov .hk-hero:after{content:"";position:absolute;left:-60px;bottom:-120px;width:300px;height:300px;border-radius:50%;background:rgba(255,255,255,.06)}
+.hk-gov .hk-hero-in{position:relative;z-index:1}
+.hk-gov .hk-hero h1{font-size:clamp(30px,4vw,46px);font-weight:800;letter-spacing:-.045em;margin:0 0 12px;color:#fff}
+.hk-gov .hk-hero p{font-size:18px;color:#d5e3ff;margin:0 0 30px}
+.hk-gov .hk-big-sf{margin:0 auto;max-width:640px;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px rgba(0,20,80,.3)}
+.hk-gov .hk-big-sf input{color:var(--g-ink);padding:19px 22px}.hk-gov .hk-big-sf button{background:var(--g-blue);padding:0 34px}
+.hk-gov .hk-hot{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:20px;align-items:center}
+.hk-gov .hk-hot span{font-size:13px;font-weight:700;color:#a9c3ff;margin-right:4px}
+.hk-gov .hk-hot a{color:#fff!important;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);padding:6px 14px;border-radius:999px;font-size:14px;font-weight:600;text-decoration:none!important}
+.hk-gov .hk-hot a:hover{background:rgba(255,255,255,.28)}
+.hk-gov .hk-sec{padding:44px 0 0}.hk-gov .hk-sec h2{font-size:23px;font-weight:800;letter-spacing:-.03em;margin:0 0 18px;color:var(--g-navy);display:flex;align-items:center;gap:10px}
+.hk-gov .hk-sec h2:before{content:"";width:5px;height:22px;background:var(--g-blue);border-radius:2px}
+.hk-gov .hk-tiles{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.hk-gov .hk-tile{background:#fff;border:1px solid var(--g-line);border-radius:10px;padding:22px 12px 18px;align-items:center;text-align:center;gap:6px;transition:border-color .15s,box-shadow .15s}
+.hk-gov .hk-tile:hover{border-color:var(--g-blue);box-shadow:0 6px 18px rgba(37,110,244,.16)}
+.hk-gov .hk-tile i{font-style:normal;font-size:30px;width:64px;height:64px;display:grid;place-items:center;background:var(--g-soft);border-radius:50%;margin-bottom:6px}
+.hk-gov .hk-tile strong{font-size:16px;font-weight:800;color:var(--g-navy)}.hk-gov .hk-tile span{font-size:13px;color:var(--g-sub)}
+.hk-gov .hk-two{display:grid;grid-template-columns:1.7fr 1fr;gap:28px;align-items:start}
+.hk-gov .hk-tbl{background:#fff;border:1px solid var(--g-line);border-top:2px solid var(--g-navy)}
+.hk-gov .hk-th2,.hk-gov .hk-row{display:flex;align-items:center;gap:14px;padding:14px 18px}
+.hk-gov .hk-th2{background:#f0f3f9;font-size:13.5px;color:var(--g-sub);font-weight:700;border-bottom:1px solid var(--g-line)}.hk-gov .hk-th2 span{flex:1}
+.hk-gov .hk-th2 b,.hk-gov .hk-row b{width:44px;text-align:center;font-weight:600;color:var(--g-sub);font-size:14px}
+.hk-gov .hk-th2 time,.hk-gov .hk-row time{width:92px;text-align:center;color:var(--g-sub)}
+.hk-gov .hk-row{border-bottom:1px solid #eef1f6;font-size:15.5px;font-weight:600}.hk-gov .hk-row:last-child{border-bottom:0}.hk-gov .hk-row:hover{background:var(--g-soft);color:var(--g-blue)!important}
+.hk-gov .hk-side .hk-card{background:#fff;border:1px solid var(--g-line);border-radius:10px;margin-bottom:14px}.hk-gov .hk-side .hk-card:hover{border-color:var(--g-blue)}
+.hk-gov .hk-th{aspect-ratio:16/8}.hk-gov .hk-bd{padding:14px 16px 16px}.hk-gov .hk-bd strong{font-size:16px;font-weight:800;color:var(--g-navy)}.hk-gov .hk-ex{display:none}
+.hk-gov .hk-lab em{color:var(--g-blue);background:var(--g-soft);padding:2px 9px;border-radius:4px}.hk-gov .hk-bd time{color:var(--g-sub)}
+.hk-gov .hk-note{background:var(--g-warn);border:1px solid #f2dc94;border-radius:10px;padding:16px 18px}.hk-gov .hk-note strong{color:#8a6100}.hk-gov .hk-note p{margin:6px 0 0;font-size:14px;line-height:1.65;color:#5a4a1a}
+.hk-gov .hk-ft{background:var(--g-navy);color:#b9caee}.hk-gov .hk-ft-l b{color:#fff;font-size:19px}.hk-gov .hk-ft a{color:#fff!important}
+/* 글 페이지 */
+.hk-gov .hk-bc{background:#fff;border-bottom:1px solid var(--g-line);font-size:13.5px;color:var(--g-sub)}.hk-gov .hk-bc .hk-in{padding-top:12px;padding-bottom:12px;display:flex;gap:8px}
+.hk-gov .hk-bc a{color:var(--g-sub)!important;text-decoration:none}.hk-gov .hk-bc em{font-style:normal;color:var(--g-blue);font-weight:700}
+.hk-gov:not(.hk-is-home) .centered-bottom{max-width:860px!important}
+.hk-gov:not(.hk-is-home) .post-outer-container{background:#fff!important;border:1px solid var(--g-line)!important;border-top:3px solid var(--g-navy)!important;border-radius:0 0 10px 10px!important;margin:28px 0 0!important;padding:38px 44px!important;box-shadow:none!important}
+.hk-gov .post-title,.hk-gov h1.post-title{font-size:30px!important;line-height:1.4;font-weight:800!important;letter-spacing:-.04em;color:var(--g-navy)!important;padding-bottom:18px;border-bottom:1px solid var(--g-line)}
+.hk-gov .post-header .byline,.hk-gov .post-timestamp{color:var(--g-sub)!important;font-size:14px}
+.hk-gov .post-body{font-size:17px!important;line-height:1.9!important;color:var(--g-ink)!important}
+.hk-gov .post-body h2{font-size:23px!important;font-weight:800!important;color:var(--g-navy)!important;margin:2.3em 0 .8em!important;padding:12px 16px;background:var(--g-soft);border-left:5px solid var(--g-blue);border-radius:0 6px 6px 0}
+.hk-gov .post-body h3{font-size:19px!important;font-weight:800!important;color:var(--g-blue)!important;margin:1.7em 0 .5em!important;padding-left:12px;border-left:3px solid var(--g-blue)}
+.hk-gov .post-body img{border-radius:8px;border:1px solid var(--g-line)}
+.hk-gov .post-body a{color:var(--g-blue)!important;font-weight:700}
+.hk-gov .post-body table{border-collapse:collapse!important;width:100%;border-top:2px solid var(--g-navy)}
+.hk-gov .post-body th{background:#f0f3f9!important;color:var(--g-navy)!important;padding:12px 14px!important;border:1px solid var(--g-line)!important;text-align:center}
+.hk-gov .post-body td{padding:12px 14px!important;border:1px solid var(--g-line)!important;background:#fff}
+.hk-gov .post-body blockquote{background:var(--g-warn)!important;border:1px solid #f2dc94!important;border-radius:8px;padding:16px 20px!important;margin:1.4em 0!important}
+.hk-gov .post-body ul,.hk-gov .post-body ol{padding-left:1.3em}.hk-gov .post-body li{margin:.45em 0}
+@media(max-width:900px){.hk-gov .hk-tiles{grid-template-columns:repeat(3,1fr)}.hk-gov .hk-two{grid-template-columns:1fr}.hk-gov .hk-nav a{padding:18px 10px 15px}}
+@media(max-width:600px){.hk-gov .hk-tiles{grid-template-columns:repeat(2,1fr)}.hk-gov .hk-th2 time,.hk-gov .hk-row time{display:none}.hk-gov:not(.hk-is-home) .post-outer-container{padding:24px 18px!important}.hk-gov .post-title{font-size:24px!important}.hk-gov .hk-hero{padding:40px 0 36px}.hk-gov .hk-bar .hk-in{height:60px}.hk-gov .hk-util .hk-in{font-size:11.5px}}

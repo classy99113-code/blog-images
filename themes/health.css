@@ -1,11 +1,11 @@
 /* 헬스노트 — 굿닥·닥터나우·국가건강정보포털 스타일: 청록(건강) + 차분한 네이비 텍스트, 넉넉한 여백, 둥근 카드 */
 :root{--h-teal:#0fb5a6;--h-deep:#0a8f84;--h-ink:#16323a;--h-mute:#5b7a80;--h-bg:#f2faf9;--h-line:#d5ebe8;--h-soft:#e2f6f3;--h-blue:#2f6df6}
-body,.body-fauxcolumn-outer,.page,.main,.container{background:var(--h-bg)!important;color:var(--h-ink)!important;font-family:'Pretendard Variable',Pretendard,-apple-system,'Segoe UI','Malgun Gothic',sans-serif!important;letter-spacing:-.01em}
+body,.body-fauxcolumn-outer,.page,.main{background:var(--h-bg)!important;color:var(--h-ink)!important;font-family:'Pretendard Variable',Pretendard,-apple-system,'Segoe UI','Malgun Gothic',sans-serif!important;letter-spacing:-.01em}
 .bg-photo-container,.bg-photo{background:linear-gradient(120deg,#e9fbf8 0%,#d3f3ee 60%,#c4ecff 100%)!important;background-image:linear-gradient(120deg,#e9fbf8 0%,#d3f3ee 60%,#c4ecff 100%)!important}
 .bg-photo{opacity:1!important}.bg-photo-overlay{background:none!important;opacity:0!important}
 .centered-top-container,.centered-top{background:transparent!important}
 .Header h1,.Header .title,.blog-name,.Header a,.centered-top .title a{color:var(--h-ink)!important;font-weight:800!important;letter-spacing:-.03em}
-.Header h1:before,.blog-name:before{content:"＋ ";color:var(--h-teal);font-weight:900}
+.Header h1:before{content:"";display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--h-teal);margin-right:10px;vertical-align:middle}
 .Header .description,.Header p,.header-widget .description{color:var(--h-mute)!important;font-weight:500}
 .hamburger-menu,.search-expand-icon,.search-expand,.touch-icon,.touch-icon-button{color:var(--h-ink)!important;fill:var(--h-ink)!important}
 .post-outer-container{background:#fff!important;border:1px solid var(--h-line)!important;border-radius:22px!important;box-shadow:0 4px 18px rgba(15,181,166,.08)!important;margin-bottom:22px!important;overflow:hidden}
@@ -31,3 +31,4 @@ body,.body-fauxcolumn-outer,.page,.main,.container{background:var(--h-bg)!import
 .widget h3,.widget .title{color:var(--h-ink)!important;font-weight:800!important}
 .blog-pager a,.pill-button,.flat-button{background:var(--h-teal)!important;color:#fff!important;border-radius:999px!important;font-weight:700}
 .footer,.footer-outer{background:#e2f6f3!important;color:var(--h-mute)!important}
+.container.section,.blog-name.container,.blog-name .container,.header-widget,.Header{background:transparent!important}

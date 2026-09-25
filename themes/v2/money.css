@@ -1,0 +1,53 @@
+/* 머니노트 — 토스풍 핀테크: 연회색 바탕, 흰 라운드 카드, 큰 굵은 타이포, 블루 포인트 */
+:root{--m-ink:#191f28;--m-sub:#6b7684;--m-blue:#3182f6;--m-blue2:#1b64da;--m-soft:#e8f3ff;--m-bg:#f2f4f6;--m-line:#e5e8eb}
+body.hk-money,.hk-money .page{background:var(--m-bg)!important;color:var(--m-ink);font-family:'Pretendard Variable',Pretendard,-apple-system,'Segoe UI','Malgun Gothic',sans-serif!important;letter-spacing:-.01em}
+.hk-money .hk-hd{background:#fff;position:sticky;top:0;border-bottom:1px solid var(--m-line)}
+.hk-money .hk-logo{color:var(--m-ink)!important}.hk-money .hk-logo i{background:var(--m-blue);color:#fff;border-radius:10px}
+.hk-money .hk-nav a{color:#4e5968!important;border-radius:10px}.hk-money .hk-nav a:hover{background:var(--m-bg);color:var(--m-ink)!important}
+.hk-money .hk-hero{background:#fff;padding:64px 0 56px}
+.hk-money .hk-hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hk-money .hk-pill{display:inline-block;background:var(--m-soft);color:var(--m-blue2);font-weight:700;font-size:14px;padding:7px 14px;border-radius:999px;margin-bottom:22px}
+.hk-money .hk-hero h1{font-size:clamp(34px,4.6vw,54px);line-height:1.22;font-weight:800;letter-spacing:-.045em;margin:0 0 18px;color:var(--m-ink)}
+.hk-money .hk-hero h1 em{font-style:normal;color:var(--m-blue)}
+.hk-money .hk-hero p{font-size:18px;color:var(--m-sub);margin:0 0 30px;line-height:1.6}
+.hk-money .hk-big-sf{background:var(--m-bg);border-radius:18px;overflow:hidden;border:2px solid transparent}
+.hk-money .hk-big-sf:focus-within{border-color:var(--m-blue);background:#fff}
+.hk-money .hk-big-sf input{background:transparent;color:var(--m-ink)}.hk-money .hk-big-sf button{background:var(--m-blue);margin:6px;border-radius:13px;padding:0 24px}
+.hk-money .hk-hero-tiles{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.hk-money .hk-tile{background:var(--m-bg);border-radius:22px;padding:24px 22px;gap:4px;transition:transform .15s,background .15s}
+.hk-money .hk-tile:hover{transform:translateY(-4px);background:var(--m-soft)}
+.hk-money .hk-tile i{font-style:normal;font-size:34px;margin-bottom:10px}.hk-money .hk-tile strong{font-size:19px;font-weight:800}.hk-money .hk-tile span{font-size:14px;color:var(--m-sub)}
+.hk-money .hk-sec{padding:56px 0 8px}.hk-money .hk-sec h2{font-size:28px;font-weight:800;letter-spacing:-.04em;margin:0 0 24px}
+.hk-money .hk-alt{padding-bottom:20px}
+.hk-money .hk-rank{display:grid;grid-template-columns:1.1fr 1fr;gap:20px}
+.hk-money .hk-card{background:#fff;border-radius:24px;transition:transform .15s,box-shadow .15s}
+.hk-money .hk-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(0,27,55,.1)}
+.hk-money .hk-th{border-radius:24px 24px 0 0}.hk-money .hk-bd{padding:20px 22px 24px}
+.hk-money .hk-lab em{color:var(--m-blue2);background:var(--m-soft);padding:3px 10px;border-radius:999px}
+.hk-money .hk-bd strong{font-size:19px;font-weight:800;color:var(--m-ink)}.hk-money .hk-big .hk-bd strong{font-size:24px}
+.hk-money .hk-ex{color:var(--m-sub)}.hk-money .hk-bd time,.hk-money .hk-row time{color:#8b95a1}
+.hk-money .hk-big .hk-th{aspect-ratio:16/9}
+.hk-money .hk-rows{background:#fff;border-radius:24px;padding:10px 8px;display:flex;flex-direction:column;justify-content:center}
+.hk-money .hk-row{padding:16px 18px;border-radius:14px;font-weight:600;font-size:16px}.hk-money .hk-row:hover{background:var(--m-bg)}
+.hk-money .hk-row b{color:var(--m-blue);font-size:22px;font-weight:800;width:22px}.hk-money .hk-row time{display:none}
+.hk-money .hk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.hk-money .hk-ft{background:#fff;color:var(--m-sub);border-top:1px solid var(--m-line)}.hk-money .hk-ft-l b{font-size:18px;color:var(--m-ink)}.hk-money .hk-ft a{color:#4e5968!important}
+/* 글 페이지 */
+.hk-money:not(.hk-is-home) .post-outer-container{background:#fff!important;border-radius:28px!important;margin:28px 0 0!important;padding:44px 48px 40px!important;box-shadow:none!important;border:0!important}
+.hk-money .post-title,.hk-money h1.post-title{font-size:34px!important;line-height:1.35;font-weight:800!important;letter-spacing:-.045em;color:var(--m-ink)!important}
+.hk-money .post-header .byline,.hk-money .post-timestamp{color:#8b95a1!important;font-size:14px}
+.hk-money .post-body{font-size:17.5px!important;line-height:1.95!important;color:#333d4b!important}
+.hk-money .post-body h2{font-size:26px!important;font-weight:800!important;letter-spacing:-.04em;margin:2.4em 0 .7em!important;color:var(--m-ink)!important}
+.hk-money .post-body h3{font-size:20px!important;font-weight:800!important;color:var(--m-blue2)!important;margin:1.8em 0 .5em!important}
+.hk-money .post-body img{border-radius:20px}
+.hk-money .post-body a{color:var(--m-blue)!important;font-weight:600}
+.hk-money .post-body strong,.hk-money .post-body b{color:var(--m-ink);background:linear-gradient(transparent 62%,#cfe4ff 62%)}
+.hk-money .post-body table{border-collapse:separate!important;border-spacing:0;border:1px solid var(--m-line);border-radius:16px;width:100%}
+.hk-money .post-body th{background:var(--m-soft)!important;color:var(--m-blue2)!important;padding:13px 14px!important;text-align:left;border:0!important}
+.hk-money .post-body td{padding:13px 14px!important;border:0!important;border-top:1px solid var(--m-line)!important;background:#fff}
+.hk-money .post-body blockquote{background:var(--m-bg)!important;border:0!important;border-radius:18px;padding:20px 24px!important;margin:1.4em 0!important;color:#333d4b}
+.hk-money .post-body ul,.hk-money .post-body ol{padding-left:1.3em}.hk-money .post-body li{margin:.5em 0}
+@media(max-width:900px){.hk-money .hk-hero-in,.hk-money .hk-rank{grid-template-columns:1fr}.hk-money .hk-grid{grid-template-columns:1fr 1fr}.hk-money .hk-hero{padding:40px 0 36px}}
+@media(max-width:600px){.hk-money .hk-grid{grid-template-columns:1fr}.hk-money:not(.hk-is-home) .post-outer-container{padding:26px 20px!important;border-radius:22px!important}.hk-money .post-title{font-size:26px!important}.hk-money .hk-hero-tiles{gap:10px}}
+.hk-money .post-body h2{background:none!important;border:0!important;padding:0!important;border-radius:0!important;color:var(--m-ink)!important}
+.hk-money .post-body h2:before{content:"";display:block;width:28px;height:4px;background:var(--m-blue);border-radius:2px;margin-bottom:12px}

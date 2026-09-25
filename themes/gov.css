@@ -1,6 +1,6 @@
 /* 지원금 길잡이 — 복지로·정부24 스타일: 공공 안내 톤(딥 블루), 카드형 목록, 또렷한 위계 */
 :root{--g-blue:#256ef4;--g-navy:#0b2b6b;--g-bg:#f3f6fb;--g-line:#d7deec;--g-ink:#1a1f2b;--g-mute:#5c667a;--g-soft:#e8f0ff}
-body,.body-fauxcolumn-outer,.page,.main,.container{background:var(--g-bg)!important;color:var(--g-ink)!important;font-family:'Pretendard Variable',Pretendard,-apple-system,'Segoe UI','Malgun Gothic',sans-serif!important;letter-spacing:-.01em}
+body,.body-fauxcolumn-outer,.page,.main{background:var(--g-bg)!important;color:var(--g-ink)!important;font-family:'Pretendard Variable',Pretendard,-apple-system,'Segoe UI','Malgun Gothic',sans-serif!important;letter-spacing:-.01em}
 /* 상단: 커버 사진 대신 깊은 블루 그라데이션 */
 .bg-photo-container,.bg-photo{background:linear-gradient(135deg,var(--g-navy) 0%,var(--g-blue) 100%)!important;background-image:linear-gradient(135deg,var(--g-navy) 0%,var(--g-blue) 100%)!important}
 .bg-photo{opacity:1!important}.bg-photo-overlay{background:none!important;opacity:0!important}
@@ -36,3 +36,4 @@ body,.body-fauxcolumn-outer,.page,.main,.container{background:var(--g-bg)!import
 .widget h3,.widget .title{color:var(--g-navy)!important;font-weight:800!important}
 .blog-pager a,.pill-button,.flat-button{background:var(--g-blue)!important;color:#fff!important;border-radius:999px!important;font-weight:700}
 .footer,.footer-outer{background:var(--g-navy)!important;color:#cfe0ff!important}.footer a{color:#fff!important}
+.container.section,.blog-name.container,.blog-name .container,.header-widget,.Header{background:transparent!important}

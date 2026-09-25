@@ -1,0 +1,60 @@
+/* 헬스노트 — 웰니스 매거진: 크림 바탕, 세리프 제목, 세이지 그린+코랄, 아치형 이미지, 넉넉한 여백 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700;900&display=swap');
+:root{--h-ink:#26362d;--h-sub:#6a7a70;--h-sage:#5f8f6f;--h-deep:#2f5d46;--h-coral:#ee7c62;--h-cream:#fbf7ef;--h-sand:#efe6d3;--h-line:#e3dac6;--h-serif:'Noto Serif KR',Georgia,serif}
+body.hk-health,.hk-health .page{background:var(--h-cream)!important;color:var(--h-ink);font-family:'Pretendard Variable',Pretendard,-apple-system,'Malgun Gothic',sans-serif!important}
+.hk-health .hk-hd{background:var(--h-cream);border-bottom:1px solid var(--h-line)}
+.hk-health .hk-bar .hk-in{flex-direction:column;height:auto;gap:6px;padding-top:22px;padding-bottom:12px;position:relative}
+.hk-health .hk-logo{color:var(--h-deep)!important}.hk-health .hk-logo i{color:var(--h-coral);font-size:22px}
+.hk-health .hk-logo b{font-family:var(--h-serif);font-size:32px;font-weight:900;letter-spacing:-.05em}
+.hk-health .hk-nav{justify-content:center;flex:none;gap:2px;width:100%}
+.hk-health .hk-nav a{color:var(--h-ink)!important;font-size:15px;border-radius:999px}.hk-health .hk-nav a:hover{background:var(--h-sand)}
+.hk-health .hk-sf{position:absolute;right:24px;top:26px}.hk-health .hk-sf input,.hk-health .hk-sf button{background:var(--h-sand)}
+.hk-health .hk-hero{padding:56px 0 40px}
+.hk-health .hk-hero-in{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hk-health .hk-kick{display:inline-block;letter-spacing:.22em;font-weight:800;font-size:13px;color:var(--h-coral);margin-bottom:18px}
+.hk-health .hk-hero h1{font-family:var(--h-serif);font-size:clamp(32px,4.2vw,52px);line-height:1.32;font-weight:900;letter-spacing:-.05em;margin:0 0 20px;color:var(--h-deep)}
+.hk-health .hk-hero p{font-size:18px;line-height:1.8;color:var(--h-sub);margin:0 0 30px;max-width:520px}
+.hk-health .hk-cta{display:flex;gap:12px;flex-wrap:wrap}
+.hk-health .hk-btn{display:inline-block;background:var(--h-deep);color:#fff!important;font-weight:800;padding:15px 28px;border-radius:999px;text-decoration:none!important}
+.hk-health .hk-btn:hover{background:var(--h-sage)}.hk-health .hk-ghost{background:transparent;color:var(--h-deep)!important;border:2px solid var(--h-deep)}.hk-health .hk-ghost:hover{background:var(--h-sand)}
+.hk-health .hk-arch{position:relative;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;aspect-ratio:4/5;border-radius:999px 999px 28px 28px;background:var(--h-sand) center/cover no-repeat;overflow:hidden;padding:26px;text-decoration:none!important;color:#fff!important;box-shadow:0 24px 50px rgba(47,93,70,.18)}
+.hk-health .hk-arch:before{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(20,40,28,.78))}
+.hk-health .hk-arch span,.hk-health .hk-arch strong{position:relative}
+.hk-health .hk-arch span{align-self:flex-start;background:var(--h-coral);font-size:12px;font-weight:800;padding:4px 12px;border-radius:999px}
+.hk-health .hk-arch strong{font-family:var(--h-serif);font-size:20px;line-height:1.45;font-weight:700}
+.hk-health .hk-trust{background:var(--h-sand);margin-top:24px}.hk-health .hk-trust .hk-in{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;padding-top:30px;padding-bottom:30px}
+.hk-health .hk-trust div div,.hk-health .hk-trust .hk-in>div{display:flex;flex-direction:column;gap:5px}
+.hk-health .hk-trust i{font-style:normal;font-size:26px}.hk-health .hk-trust b{font-family:var(--h-serif);font-size:18px;color:var(--h-deep)}.hk-health .hk-trust span{font-size:14px;line-height:1.6;color:var(--h-sub)}
+.hk-health .hk-sec{padding:64px 0 8px}
+.hk-health .hk-sec h2{font-family:var(--h-serif);font-size:30px;font-weight:900;letter-spacing:-.04em;margin:0 0 28px;color:var(--h-deep)}
+.hk-health .hk-h2b{margin-top:64px!important}
+.hk-health .hk-mag{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.hk-health .hk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.hk-health .hk-card{background:transparent;gap:16px}
+.hk-health .hk-th{border-radius:26px;aspect-ratio:4/3;transition:transform .3s}.hk-health .hk-card:hover .hk-th{transform:scale(1.02)}
+.hk-health .hk-card{overflow:visible}.hk-health .hk-th{overflow:hidden}
+.hk-health .hk-lab em{color:var(--h-coral);letter-spacing:.04em}.hk-health .hk-lab em:before{content:"#"}
+.hk-health .hk-bd strong{font-family:var(--h-serif);font-size:20px;font-weight:700;color:var(--h-ink)}.hk-health .hk-big .hk-bd strong{font-size:25px;line-height:1.45}
+.hk-health .hk-ex{color:var(--h-sub)}.hk-health .hk-bd time{color:#9aa79f}
+.hk-health .hk-ft{background:var(--h-deep);color:#cfe0d5}.hk-health .hk-ft-l b{font-family:var(--h-serif);font-size:22px;color:#fff}.hk-health .hk-ft a{color:#fff!important}
+/* 글 페이지 */
+.hk-health:not(.hk-is-home) .centered-bottom{max-width:720px!important}
+.hk-health:not(.hk-is-home) .post-outer-container{background:transparent!important;margin:44px 0 0!important;padding:0!important;box-shadow:none!important;border:0!important}
+.hk-health .post-title,.hk-health h1.post-title{font-family:var(--h-serif);font-size:38px!important;line-height:1.4;font-weight:900!important;letter-spacing:-.05em;color:var(--h-deep)!important;text-align:center}
+.hk-health .post-header{text-align:center}.hk-health .post-header .byline,.hk-health .post-timestamp{color:var(--h-sub)!important;font-size:14px}
+.hk-health .post-body{font-size:18px!important;line-height:2!important;color:#33443a!important}
+.hk-health .post-body h2{font-family:var(--h-serif);font-size:27px!important;font-weight:900!important;letter-spacing:-.04em;margin:2.6em 0 .8em!important;color:var(--h-deep)!important;padding-bottom:12px;border-bottom:2px solid var(--h-sand)}
+.hk-health .post-body h2:after{content:"";display:block;width:56px;height:3px;background:var(--h-coral);margin-top:12px;margin-bottom:-14px}
+.hk-health .post-body h3{font-family:var(--h-serif);font-size:21px!important;font-weight:700!important;color:var(--h-sage)!important;margin:1.8em 0 .5em!important}
+.hk-health .post-body img{border-radius:28px}
+.hk-health .post-body a{color:var(--h-deep)!important;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.hk-health .post-body strong,.hk-health .post-body b{color:var(--h-ink);background:linear-gradient(transparent 60%,#f7d9cf 60%)}
+.hk-health .post-body table{border-collapse:separate!important;border-spacing:0;border:1px solid var(--h-line);border-radius:18px;width:100%;overflow:hidden}
+.hk-health .post-body th{background:var(--h-sage)!important;color:#fff!important;padding:13px 14px!important;text-align:left;border:0!important}
+.hk-health .post-body td{padding:13px 14px!important;border:0!important;border-top:1px solid var(--h-line)!important;background:#fffdf8}
+.hk-health .post-body blockquote{background:var(--h-sand)!important;border:0!important;border-left:5px solid var(--h-coral)!important;border-radius:0 18px 18px 0;padding:20px 26px!important;margin:1.6em 0!important}
+.hk-health .post-body ul,.hk-health .post-body ol{padding-left:1.3em}.hk-health .post-body li{margin:.55em 0}
+@media(max-width:900px){.hk-health .hk-hero-in,.hk-health .hk-mag{grid-template-columns:1fr}.hk-health .hk-arch{aspect-ratio:4/3;border-radius:200px 200px 24px 24px}.hk-health .hk-grid{grid-template-columns:1fr 1fr}.hk-health .hk-trust .hk-in{grid-template-columns:1fr}.hk-health .hk-sf{display:none}}
+@media(max-width:600px){.hk-health .hk-grid{grid-template-columns:1fr}.hk-health .post-title{font-size:28px!important}.hk-health .hk-hero{padding:34px 0 20px}}
+.hk-health .hk-arch:before{display:none}
+.hk-health .hk-arch strong{background:rgba(251,247,239,.97);color:var(--h-deep)!important;padding:14px 18px;border-radius:18px;font-size:16.5px;margin-top:6px}
