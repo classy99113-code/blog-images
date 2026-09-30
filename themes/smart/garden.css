@@ -1,0 +1,72 @@
+/* 지니정원 — 라이프스타일 매거진: 블랙 히어로 + 라임 포인트, 카테고리별 컬러 배지, 벤토 그리드 */
+:root{--j-ink:#0f1411;--j-sub:#5d6b62;--j-lime:#c8f169;--j-lime2:#a9e02f;--j-bg:#f2f5ec;--j-line:#e0e6d6;--j-dark:#0e1210}
+body.hk-garden,.hk-garden .page{background:var(--j-bg)!important;color:var(--j-ink);font-family:'Pretendard Variable',Pretendard,-apple-system,'Malgun Gothic',sans-serif!important}
+.hk-garden .hk-hd{background:var(--j-dark);position:sticky;top:0;border-bottom:1px solid #222a25}
+.hk-garden .hk-logo{color:#fff!important}.hk-garden .hk-logo i{background:var(--j-lime);color:var(--j-dark);border-radius:50%}
+.hk-garden .hk-nav a{color:#cfd8d1!important;border-radius:999px}.hk-garden .hk-nav a:hover{background:var(--j-lime);color:var(--j-dark)!important}
+.hk-garden .hk-sf input,.hk-garden .hk-sf button{background:#1c231f;color:#fff}.hk-garden .hk-sf input::placeholder{color:#7d8a82}
+.hk-garden .hk-hero{background:radial-gradient(900px 420px at 85% -10%,rgba(200,241,105,.22),transparent 60%),var(--j-dark);color:#fff;padding:72px 0 84px;position:relative;overflow:hidden}
+.hk-garden .hk-hero-in{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center}
+.hk-garden .hk-tag{display:inline-block;letter-spacing:.2em;font-size:12.5px;font-weight:800;color:var(--j-dark);background:var(--j-lime);padding:6px 14px;border-radius:999px;margin-bottom:22px}
+.hk-garden .hk-hero h1{font-size:clamp(36px,5vw,62px);line-height:1.15;font-weight:900;letter-spacing:-.05em;margin:0 0 18px;color:#fff}
+.hk-garden .hk-hero h1 em{font-style:normal;color:var(--j-lime)}
+.hk-garden .hk-hero p{font-size:18px;line-height:1.7;color:#aeb9b1;margin:0 0 28px;max-width:540px}
+.hk-garden .hk-big-sf{background:#fff;border-radius:999px;overflow:hidden;padding:5px;max-width:540px}
+.hk-garden .hk-big-sf input{color:var(--j-ink);padding:14px 22px}.hk-garden .hk-big-sf button{background:var(--j-dark);border-radius:999px;padding:0 28px}
+.hk-garden .hk-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.hk-garden .hk-chip{display:inline-flex;align-items:center;gap:7px;color:#fff!important;text-decoration:none!important;font-weight:700;font-size:14.5px;padding:8px 16px 8px 12px;border-radius:999px;border:1.5px solid var(--cc);background:rgba(255,255,255,.04);transition:background .15s,color .15s}
+.hk-garden .hk-chip i{font-style:normal}.hk-garden .hk-chip:hover{background:var(--cc);color:var(--j-dark)!important}
+.hk-garden .hk-pick{display:block;background:#fff;border-radius:30px;padding:12px;transform:rotate(2.2deg);box-shadow:0 0 0 4px var(--j-lime),0 30px 60px rgba(0,0,0,.45);text-decoration:none!important;color:var(--j-ink)!important;transition:transform .25s}
+.hk-garden .hk-pick:hover{transform:rotate(0)}
+.hk-garden .hk-pick-th{display:block;aspect-ratio:4/3;border-radius:20px;background:#dfe6d3 center/cover no-repeat}
+.hk-garden .hk-pick-bd{display:flex;flex-direction:column;gap:8px;padding:16px 10px 8px}
+.hk-garden .hk-pick-bd em{font-style:normal;align-self:flex-start;background:var(--j-lime);font-weight:800;font-size:12px;padding:3px 11px;border-radius:999px}
+.hk-garden .hk-pick-bd strong{font-size:19px;line-height:1.45;letter-spacing:-.03em;font-weight:800}
+.hk-garden .hk-sec{padding:60px 0 0}
+.hk-garden .hk-sechd{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
+.hk-garden .hk-sechd h2{margin:0;font-size:29px;font-weight:900;letter-spacing:-.045em;display:flex;align-items:center;gap:12px}
+.hk-garden .hk-sechd h2 i{font-style:normal;display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--cc,var(--j-lime));font-size:22px}
+.hk-garden .hk-sechd a{font-weight:800;font-size:14.5px;color:var(--j-ink)!important;text-decoration:none!important;background:#fff;border:1.5px solid var(--j-ink);padding:8px 16px;border-radius:999px}
+.hk-garden .hk-sechd a:hover{background:var(--j-ink);color:#fff!important}
+.hk-garden .hk-bento{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.hk-garden .hk-b0{grid-column:span 2;grid-row:span 2}
+.hk-garden .hk-b5,.hk-garden .hk-b6{grid-column:span 2;flex-direction:row}
+.hk-garden .hk-b5 .hk-th,.hk-garden .hk-b6 .hk-th{width:40%;aspect-ratio:auto;flex:none}
+.hk-garden .hk-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.hk-garden .hk-card{background:#fff;border-radius:26px;border:1px solid var(--j-line);transition:transform .18s,box-shadow .18s}
+.hk-garden .hk-card:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(15,20,17,.12)}
+.hk-garden .hk-th{aspect-ratio:4/3}.hk-garden .hk-b0 .hk-th{aspect-ratio:auto;flex:1;min-height:280px}
+.hk-garden .hk-bd{padding:16px 18px 20px}
+.hk-garden .hk-cat{background:var(--cc);color:var(--j-dark);padding:3px 11px;border-radius:999px;font-size:12px;font-weight:800}
+.hk-garden .hk-bd strong{font-size:16.5px;font-weight:800;color:var(--j-ink);letter-spacing:-.03em}.hk-garden .hk-b0 .hk-bd strong{font-size:25px}
+.hk-garden .hk-ex{color:var(--j-sub);font-size:14px;-webkit-line-clamp:2}.hk-garden .hk-bento .hk-card:not(.hk-b0) .hk-ex{display:none}
+.hk-garden .hk-bd time{color:#8a978e}
+.hk-garden .hk-catsec .hk-card{border-top:5px solid var(--cc)}
+.hk-garden .hk-ft{background:var(--j-dark);color:#9aa79f}.hk-garden .hk-ft-l b{color:var(--j-lime);font-size:22px}.hk-garden .hk-ft a{color:#fff!important}
+.hk-garden .hk-list .hk-grid{grid-template-columns:repeat(4,1fr)}
+/* 글 페이지 */
+.hk-garden:not(.hk-is-home) .centered-bottom{max-width:800px!important}
+.hk-garden:not(.hk-is-home):not(.hk-is-list) .post-outer-container{background:#fff!important;border-radius:30px!important;margin:32px 0 0!important;padding:46px 50px 42px!important;box-shadow:0 1px 0 var(--j-line)!important;border:0!important}
+.hk-garden .post-title,.hk-garden h1.post-title{font-size:35px!important;line-height:1.35;font-weight:900!important;letter-spacing:-.05em;color:var(--j-ink)!important}
+.hk-garden .post-header .byline,.hk-garden .post-timestamp{color:#8a978e!important;font-size:14px}
+.hk-garden .post-body{font-size:17.5px!important;line-height:1.95!important;color:#27312b!important}
+.hk-garden .post-body h2{font-size:26px!important;font-weight:900!important;letter-spacing:-.045em;margin:2.4em 0 .8em!important;color:var(--j-ink)!important;background:linear-gradient(transparent 62%,var(--j-lime) 62%)!important;display:inline;padding:0!important;border:0!important;border-radius:0!important;line-height:1.8}
+.hk-garden .post-body h3{font-size:20px!important;font-weight:800!important;color:var(--j-ink)!important;margin:1.8em 0 .5em!important;padding-left:14px;border-left:5px solid var(--j-lime2)}
+.hk-garden .post-body img{border-radius:22px}
+.hk-garden .post-body a{color:#3f6b00!important;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.hk-garden .post-body table{border-collapse:separate!important;border-spacing:0;border:1px solid var(--j-line);border-radius:18px;width:100%;overflow:hidden}
+.hk-garden .post-body th{background:var(--j-dark)!important;color:var(--j-lime)!important;padding:13px 14px!important;text-align:left;border:0!important}
+.hk-garden .post-body td{padding:13px 14px!important;border:0!important;border-top:1px solid var(--j-line)!important;background:#fff}
+.hk-garden .post-body blockquote{background:#f3fbd9!important;border:0!important;border-left:5px solid var(--j-lime2)!important;border-radius:0 18px 18px 0;padding:18px 24px!important;margin:1.5em 0!important}
+.hk-garden .post-body ul,.hk-garden .post-body ol{padding-left:1.3em}.hk-garden .post-body li{margin:.5em 0}
+@media(max-width:1000px){.hk-garden .hk-hero-in{grid-template-columns:1fr}.hk-garden .hk-pick{max-width:420px;transform:rotate(1deg)}.hk-garden .hk-bento,.hk-garden .hk-grid,.hk-garden .hk-list .hk-grid{grid-template-columns:1fr 1fr}.hk-garden .hk-b0{grid-column:span 2;grid-row:auto}.hk-garden .hk-b0 .hk-th{aspect-ratio:16/9;min-height:0;flex:none}.hk-garden .hk-b5,.hk-garden .hk-b6{grid-column:span 1;flex-direction:column}.hk-garden .hk-b5 .hk-th,.hk-garden .hk-b6 .hk-th{width:auto;aspect-ratio:4/3}}
+@media(max-width:600px){.hk-garden .hk-bento,.hk-garden .hk-grid,.hk-garden .hk-list .hk-grid{grid-template-columns:1fr}.hk-garden .hk-b0{grid-column:auto}.hk-garden .hk-hero{padding:44px 0 52px}.hk-garden:not(.hk-is-home):not(.hk-is-list) .post-outer-container{padding:26px 20px!important;border-radius:22px!important}.hk-garden .post-title{font-size:26px!important}.hk-garden .hk-sechd h2{font-size:23px}}
+/* 기존 테마(derelogy) 뼈대 정리 */
+.hk-garden .justhead,.hk-garden #menu,.hk-garden #billboard,.hk-garden aside.aside,.hk-garden #aside-sticky,.hk-garden footer.footer,.hk-garden .totop,.hk-garden .breadcrumb,.hk-garden .post-info,.hk-garden .post-labels,.hk-garden .derelogy>label,.hk-garden #pager,.hk-garden .comments,.hk-garden #comments,.hk-garden .related-posts,.hk-garden .post-share{display:none!important}
+.hk-garden .derelogy-inner{background:transparent!important;box-shadow:none!important;border:0!important;max-width:none!important;padding:0!important;margin:0!important;border-radius:0!important}
+.hk-garden .mains{display:block!important;max-width:840px;margin:0 auto;padding:0 20px;box-sizing:border-box}
+.hk-garden main.main{width:100%!important;max-width:none!important;padding:0!important}
+.hk-garden.hk-is-home.hk-ready .derelogy,.hk-garden.hk-is-list.hk-ready .derelogy{display:none!important}
+.hk-garden article.article{background:#fff!important;border-radius:30px!important;margin:32px 0 0!important;padding:46px 50px 42px!important;box-shadow:0 1px 0 var(--j-line)!important;border:0!important;box-sizing:border-box}
+.hk-garden .entry-title{font-size:35px!important;line-height:1.35;font-weight:900!important;letter-spacing:-.05em;color:var(--j-ink)!important;margin:0 0 26px!important}
+@media(max-width:600px){.hk-garden article.article{padding:26px 20px!important;border-radius:22px!important}.hk-garden .entry-title{font-size:26px!important}}
